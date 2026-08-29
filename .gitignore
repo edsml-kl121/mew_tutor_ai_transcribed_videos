@@ -13,3 +13,6 @@
 transcripts/**/transcript_raw.json
 transcripts/*.log
 CLAUDE.md
+config.sh
+refresh_ip.sh
+transcribe.sh
