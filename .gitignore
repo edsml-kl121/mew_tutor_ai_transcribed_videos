@@ -1,0 +1,15 @@
+.DS_Store
+
+# Source videos and generated audio can be very large.
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.flac
+*.wav
+
+# Keep readable transcripts and summaries, but ignore bulky API output and logs.
+transcripts/**/transcript_raw.json
+transcripts/*.log
+CLAUDE.md
